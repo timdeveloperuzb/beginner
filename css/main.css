@@ -3,6 +3,8 @@
 .site-header {
   background: #fff;
 }
+
+/* SITENAV */
 .sitenav-list {
   list-style: none;
 }
@@ -27,7 +29,7 @@
   background: #ff7500;
   text-decoration: none;
 }
-
+/* HERO */
 .hero {
   background: #252420;
   color: #fff;
@@ -61,7 +63,7 @@
   color: #ffffff;
 }
 
-/* features */
+/* FEATURES */
 .feature {
   width: 340px;
 }
