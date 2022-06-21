@@ -14,6 +14,7 @@ body {
   list-style: none;
 }
 .sitenav-link {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -25,6 +26,7 @@ body {
 }
 
 .main-link {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
@@ -52,6 +54,7 @@ body {
   background: #ff7500;
 }
 .hero-title {
+  font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -73,6 +76,7 @@ body {
   width: 340px;
 }
 .features-title {
+  font-family: 'Roboto Condensed', sans-serif;
   width: 440px;
   font-style: normal;
   font-weight: 700;
@@ -87,6 +91,7 @@ body {
   background: rgba(255, 117, 0, 0.2);
 }
 .features-heading {
+  font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -112,6 +117,7 @@ body {
   width: 440px;
 }
 .promo-title {
+  font-family: 'Roboto Condensed', sans-serif;
   width: 375px;
   font-style: normal;
   font-weight: 700;
