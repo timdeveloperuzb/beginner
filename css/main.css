@@ -5,6 +5,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+*:focus {
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
 /* site header */
 
 .site-header {
@@ -240,6 +244,6 @@ body {
 .site-footer-link:hover {
   color: #ff7500;
 }
-.site-footer-link:focus {
+.site-footer-link:active {
   opacity: 0.6;
 }
