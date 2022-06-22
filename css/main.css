@@ -1,9 +1,24 @@
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 16px;
   line-height: 1.5;
+  padding: 0;
+  margin: 0;
+
+}
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 *:focus {
   outline: 2px dotted #ff7500;
@@ -12,13 +27,16 @@ body {
 /* site header */
 
 .site-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+ 
   background: #fff;
   border-top: 5px solid #ff7500;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+.site-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .logo-link {
   transition: opacity 0.4s ease;
@@ -97,11 +115,14 @@ body {
 .hero {
   background: #252420;
   color: #fff;
+ 
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.hero-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 .hero-content {
   width: 390px;
@@ -110,6 +131,7 @@ body {
   width: 510px;
   height: 510px;
   border-radius: 8px;
+  box-shadow: 24px 24px 0 rgba(255, 117, 0, 0.6);
 }
 .orange-line {
   width: 80px;
@@ -179,6 +201,7 @@ body {
   width: 100px;
   height: 100px;
   background: rgba(255, 117, 0, 0.2);
+  margin-bottom: 32px;
 }
 .features-heading {
   font-family: "Roboto Condensed", sans-serif;
@@ -188,6 +211,8 @@ body {
   line-height: 120%;
   letter-spacing: 0.5px;
   color: #000000;
+  margin-top: 0; 
+  margin-bottom: 12px;
 }
 .features-text {
   font-style: normal;
@@ -196,18 +221,24 @@ body {
   line-height: 150%;
   letter-spacing: 0.5px;
   color: #000000;
+  margin: 0;
+
 }
 /* PROMO  */
 
 .promo {
-  /* padding-top: 120px;
-  padding-bottom: 160px;   */
+  padding-top: 120px;
+  padding-bottom: 160px;  
+  
+}
+.promo-inner {
+  padding: 64px;
   background: #252420;
-  color: #fff;
+  border-radius: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 12px;
+  color: #fff;
 }
 .promo-info {
   width: 440px;
@@ -278,6 +309,12 @@ body {
   width: 224px;
   padding: 0;
   margin: 0;
+}
+.site-footer-list li {
+  margin-bottom: 16px;
+}
+.site-footer-list li:last-child {
+  margin-bottom: 0;
 }
 
 .site-footer-social-list {
