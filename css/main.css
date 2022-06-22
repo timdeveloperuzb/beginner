@@ -309,6 +309,7 @@ body {
   width: 224px;
   padding: 0;
   margin: 0;
+  margin-right: 68px;
 }
 .site-footer-list li {
   margin-bottom: 16px;
