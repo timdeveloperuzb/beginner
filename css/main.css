@@ -121,6 +121,9 @@ body {
 .main-link:active {
   opacity: 0.6;
 }
+.main-content {
+  flex-grow: 1;
+}
 /* HERO */
 .hero {
   background: #252420;
